@@ -11,11 +11,14 @@ const Browse = () => (
         <Wrapper>
             <h4>Tendency</h4>
             <List>
-                <Movie>
-                    <img src="" />
+                <Movie to={`/movie`}>
+                    <img
+                        src="https://http2.mlstatic.com/poster-peq-imp-couche-a3-de-harry-potter-e-a-ordemvr3-D_NQ_NP_14468-MLB193619004_2122-F.jpg"
+                        alt="Movie"
+                    />
                     <div>
                         <h4>Harry Potter and the Half-Blood Prince</h4>
-                        <p></p>
+                        <p>2009</p>
                     </div>
                 </Movie>
             </List>
